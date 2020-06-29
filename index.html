@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minesweeper</title>
+
+    <style>
+        #id-game-container {
+            width: 500px;
+            margin: 100px auto;
+        }
+        
+        .gua-line {
+            margin: 5px;
+        }
+        
+        .gua-num {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background-color: rgba(239, 189, 98, 0.27);
+            line-height: 30px;
+            text-align: center;
+            font-size: 0px;
+            vertical-align: bottom;
+        }
+        
+        .show09 {
+            background: url('boom.jpg');
+            background-size: 30px 30px;
+            background-repeat: no-repeat
+        }
+        
+        .show {
+            font-size: 20px;
+            background-color: #EEEEEE;
+        }
+        
+        .zero {
+            font-size: 0 !important;
+        }
+        
+        .num1 {
+            color: #58a4de;
+            font-weight: bold;
+        }
+        
+        .num2 {
+            color: #52c5a7;
+            font-weight: bold;
+        }
+        
+        .num3 {
+            color: #d44646;
+            font-weight: bold;
+        }
+        
+        .num4 {
+            color: #d6d434;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="id-game-container">
+        <div id="id-gua-square">
+
+        </div>
+    </div>
+    <script src="./minesweeper.js"></script>
+</body>
+
+</html>
